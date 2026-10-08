@@ -60,6 +60,6 @@ class MateriasController extends Controller
      */
     public function destroy(Materias $materias)
     {
-        //
+        // 
     }
 }
