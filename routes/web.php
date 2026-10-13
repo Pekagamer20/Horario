@@ -10,6 +10,4 @@ Route::get('/inicio', function (){
     return view('inicio'); 
     });
 
-Route::post('/formulario', function(){ 
-    return view('formulario');
-});
+Route::resource('materias', 'App\Http\Controllers\MateriasController');
